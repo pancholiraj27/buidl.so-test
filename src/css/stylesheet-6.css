@@ -47,6 +47,7 @@
   }
 }
 
+/* for tablets */
 @media screen and (min-width: 720px) {
   /* heading  */
   .page-header > span {
@@ -128,6 +129,7 @@
   }
 }
 
+/* from pc / laptop */
 @media screen and (min-width: 1024px) {
   /* in-person btn */
   .offline {
