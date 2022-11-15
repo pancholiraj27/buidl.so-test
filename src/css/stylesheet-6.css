@@ -1,6 +1,5 @@
 /* for mobile devices */
 @media screen and (max-width: 720px) {
-  /* heading  */
   .page-header > span {
     font-size: 24px;
   }
@@ -23,17 +22,14 @@
   }
 
   /* Mentoring Sessions */
-  /* mentoring heading */
   .block-title {
     font-size: 16px !important;
   }
 
-  /* distance between divs */
   .parent-container-flex .view-content {
     justify-content: space-between;
   }
 
-  /* img div */
   .program-view-mentor-profile {
     border-radius: 12px;
     width: 0;
@@ -49,7 +45,6 @@
 
 /* for tablets */
 @media screen and (min-width: 720px) {
-  /* heading  */
   .page-header > span {
     font-size: 32px;
   }
