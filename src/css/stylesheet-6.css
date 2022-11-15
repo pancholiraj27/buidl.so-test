@@ -2,7 +2,7 @@
 @media screen and (max-width: 720px) {
   /* heading  */
   .page-header > span {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   /* send other div to bottom */
@@ -12,7 +12,7 @@
 
   /* funding Pool & Grants section  */
   .highlighted-box {
-    padding: 18px 24px 6px;
+    padding: 18px 24px 1px;
   }
   .highlighted-box .box-content {
     margin-bottom: 0;
