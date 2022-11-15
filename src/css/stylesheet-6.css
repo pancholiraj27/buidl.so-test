@@ -1,46 +1,44 @@
 /* for mobile devices */
-@media screen and (max-width: 720px) {
-  .page-header > span {
-    font-size: 24px;
-  }
+.page-header > span {
+  font-size: 24px;
+}
 
-  /* send other div to bottom */
-  .layout--twocol-section {
-    flex-direction: column;
-  }
+/* display div position column */
+.layout--twocol-section {
+  flex-direction: column;
+}
 
-  /* funding Pool & Grants section  */
-  .highlighted-box {
-    padding: 18px 24px 1px;
-  }
-  .highlighted-box .box-content {
-    margin-bottom: 0;
-  }
-  .highlighted-box .box-content .label,
-  .highlighted-box .box-content .big-txt {
-    font-size: 16px !important;
-  }
+/* funding Pool & Grants section  */
+.highlighted-box {
+  padding: 18px 24px 1px;
+}
+.highlighted-box .box-content {
+  margin-bottom: 0;
+}
+.highlighted-box .box-content .label,
+.highlighted-box .box-content .big-txt {
+  font-size: 16px !important;
+}
 
-  /* Mentoring Sessions */
-  .block-title {
-    font-size: 16px !important;
-  }
+/* Mentoring Sessions */
+.block-title {
+  font-size: 16px !important;
+}
 
-  .parent-container-flex .view-content {
-    justify-content: space-between;
-  }
+.parent-container-flex .view-content {
+  justify-content: space-between;
+}
 
-  .program-view-mentor-profile {
-    border-radius: 12px;
-    width: 0;
-    margin: 5px;
-  }
+.program-view-mentor-profile {
+  border-radius: 12px;
+  width: 0;
+  margin: 5px;
+}
 
-  /* in-person btn */
-  .offline {
-    padding: 10px 20px;
-    margin: 10px 0 !important;
-  }
+/* in-person btn */
+.offline {
+  padding: 10px 20px;
+  margin: 10px 0 !important;
 }
 
 /* for tablets */
@@ -49,7 +47,7 @@
     font-size: 32px;
   }
 
-  /* send other div to bottom */
+  /* display div position column */
   .layout--twocol-section {
     flex-direction: column;
   }
@@ -75,7 +73,6 @@
     justify-content: space-between;
   }
 
-  /* img div */
   .program-view-mentor-profile {
     border-radius: 6px;
     width: 120;
