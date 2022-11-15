@@ -1,0 +1,147 @@
+/* for mobile devices */
+@media screen and (max-width: 720px) {
+  /* heading  */
+  .page-header > span {
+    font-size: 28px;
+  }
+
+  /* send other div to bottom */
+  .layout--twocol-section {
+    flex-direction: column;
+  }
+
+  /* funding Pool & Grants section  */
+  .highlighted-box {
+    padding: 18px 24px 6px;
+  }
+  .highlighted-box .box-content {
+    margin-bottom: 0;
+  }
+  .highlighted-box .box-content .label,
+  .highlighted-box .box-content .big-txt {
+    font-size: 16px !important;
+  }
+
+  /* Mentoring Sessions */
+  /* mentoring heading */
+  .block-title {
+    font-size: 16px !important;
+  }
+
+  /* distance between divs */
+  .parent-container-flex .view-content {
+    justify-content: space-between;
+  }
+
+  /* img div */
+  .program-view-mentor-profile {
+    border-radius: 12px;
+    width: 0;
+    margin: 5px;
+  }
+
+  /* in-person btn */
+  .offline {
+    padding: 10px 20px;
+    margin: 10px 0 !important;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  /* heading  */
+  .page-header > span {
+    font-size: 32px;
+  }
+
+  /* send other div to bottom */
+  .layout--twocol-section {
+    flex-direction: column;
+  }
+
+  /* funding Pool & Grants section  */
+  .highlighted-box .box-content .label,
+  .highlighted-box .box-content .big-txt {
+    font-size: 24px !important;
+    margin: 10px 0;
+  }
+  .highlighted-box {
+    padding: 30px 24px 4px;
+  }
+
+  /* mentoring heading */
+  .block-title {
+    font-size: 28px !important;
+    margin: 50px 0 !important;
+  }
+
+  /* distance between divs */
+  .parent-container-flex .view-content {
+    justify-content: space-between;
+  }
+
+  /* img div */
+  .program-view-mentor-profile {
+    border-radius: 6px;
+    width: 120;
+    margin: 10px 20px;
+  }
+
+  /* person name bottom of img */
+  .view-content h4 {
+    font-size: 24px;
+  }
+
+  /* Faqs heading */
+  .block-views-blockprograms-block-6 > h2 {
+    font-size: 40px;
+  }
+
+  /* faqs question-ans */
+  .block-views-blockprograms-block-6 .view-content {
+    font-size: 18px;
+  }
+
+  /* in-person btn */
+  .offline {
+    font-size: 18px;
+    padding: 10px 30px !important;
+  }
+
+  /*  for extra margin */
+  .block-views-blockprograms-block-2 {
+    margin: 20px 0;
+  }
+
+  /* program date heading */
+  .box-content .label {
+    font-size: 20px;
+  }
+
+  /* program date */
+  .icon-component-text {
+    font-size: 22px !important;
+  }
+
+  /* login register text */
+  .block-views-blockprograms-block-16 .view-content > div > p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* in-person btn */
+  .offline {
+    font-size: 20px;
+    padding: 10px 35px !important;
+    margin-top: 20px;
+  }
+  /* faqs question-ans */
+  .block-views-blockprograms-block-6 .view-content {
+    font-size: 20px;
+  }
+}
+
+/* for always be in the center of div*/
+.parent-container-flex .view-content {
+  justify-content: center !important;
+}
